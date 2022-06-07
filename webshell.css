@@ -1,0 +1,50 @@
+/**
+ *  Predefined classes for styling
+ */
+
+.webshell-prompt-user {}
+.webshell-prompt-at {}
+.webshell-prompt-path {}
+.webshell-prompt-delimiter { }
+
+
+/**
+ *  “Functional” classes for layouting
+ */
+
+.webshell-prompt {
+  margin-top: 1em;
+}
+
+.webshell-input {
+  min-width: 3em;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+
+.webshell-input-current {
+  outline: none;
+}
+
+.webshell-response {
+  clear: both;
+  min-height: 1em;
+  line-height: normal;
+  white-space: pre-wrap;
+}
+
+.webshell-response:empty {
+  min-height: 0;
+}
+
+.webshell-list {
+  column-width: 10em;
+  column-gap: 3em;
+  padding-left: 0;
+  margin: 0;
+}
+
+.webshell-list-item {
+  word-wrap: break-word;
+  list-style-type: none;
+}
